@@ -5,6 +5,7 @@ import { Protocol } from "devtools-protocol";
 import * as vscode from "vscode";
 import { ANSIColors } from "../debug/common/debugConstants";
 import { CopilotDebugLog } from "./copilotDebugLogOutput";
+
 interface BotTextMessage {
   messageType: string | undefined;
   text: string;
